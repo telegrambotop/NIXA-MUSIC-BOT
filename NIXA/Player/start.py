@@ -79,7 +79,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ 💞", url=f"https://t.me/{GROUP_SUPPORT}")
+                        "•ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ•", url=f"https://youtube.com/channel/UCtI7hbY-BD7wvuIzoSU0cEw")
                 ]
             ]
         ),
@@ -92,11 +92,8 @@ async def help(client: Client, message: Message):
         photo=f"https://te.legra.ph/file/187646e964cd12329f1de.jpg",
         caption=f"""ʜᴇʀᴇ ɪs ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ғᴏʀᴋ ᴀɴᴅ ɢɪᴠᴇ sᴛᴀʀs""",
         reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "s", url=f"https://github.com/ITZ-ZAID/Zaid-Vc-Player")
-                ]
-            ]
-        ),
-    )
+                  [
+                      InlineKeyboardButton(text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                      InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                  ]
+             )
