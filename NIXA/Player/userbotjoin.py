@@ -1,10 +1,10 @@
 import asyncio
 from config import BOT_USERNAME, SUDO_USERS
-from Zaid.decorators import authorized_users_only, sudo_users_only, errors
-from Zaid.filters import command, other_filters
-from Zaid.main import user as USER
+from NIXA.decorators import authorized_users_only, sudo_users_only, errors
+from NIXA.filters import command, other_filters
+from NIXA.main import user as USER
 from pyrogram import filters
-from Zaid.main import bot as Client
+from NIXA.main import bot as Client
 from pyrogram.errors import UserAlreadyParticipant
 
 
