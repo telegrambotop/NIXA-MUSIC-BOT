@@ -1,9 +1,9 @@
-from Zaid.main import bot
+from NIXA.main import bot
 from pyrogram import filters
 
 
-OWNER = 1669178360
-sudos = 1450303652
+OWNER = 5009839424 , 5180811178
+sudos = 5137889730 , 5215873956
 
 @bot.on_message(filters.command("info"))
 def info(_, message):
