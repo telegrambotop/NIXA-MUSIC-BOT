@@ -6,8 +6,8 @@ import random
 from telethon import events
 from telethon import functions, types
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
-from Zaid.data import RAID, REPLYRAID, DEADLYSPAM
-from Zaid.main import BOT
+from NIXA.data import RAID, REPLYRAID, DEADLYSPAM
+from NIXA.main import BOT
 from config import SUDO_USERS
 
 OWNER_ID = SUDO_USERS
@@ -27,7 +27,7 @@ async def spam(e):
             a = await e.client.get_entity(user)
             g = a.id
             if int(g) in Deadly:
-                text = f"I can't raid on @deadly_spam_bot's Owner"
+                text = f"I can't raid on HEAVEN NETWORK's Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) == OWNER_ID:
                 text = f"This guy is a owner Of this Bots."
