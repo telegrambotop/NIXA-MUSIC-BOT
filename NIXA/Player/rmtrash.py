@@ -1,10 +1,10 @@
 import os
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from Zaid.filters import command, other_filters
-from Zaid.decorators import sudo_users_only, errors
+from NIXA.filters import command, other_filters
+from NIXA.decorators import sudo_users_only, errors
 
-downloads = os.path.realpath("Zaid/downloads")
+downloads = os.path.realpath("NIXA/downloads")
 raw = os.path.realpath(".")
 
 @Client.on_message(command(["rmd", "clear"]) & ~filters.edited)
