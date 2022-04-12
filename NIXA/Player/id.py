@@ -1,4 +1,4 @@
-from MIXA.main import bot
+from NIXA.main import bot
 from pyrogram import filters
 
 
