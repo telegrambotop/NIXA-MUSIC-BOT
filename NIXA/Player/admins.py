@@ -1,11 +1,11 @@
-from Zaid.Cache.admins import admins
-from Zaid.main import call_py
+from NIXA.Cache.admins import admins
+from NIXA.main import call_py
 from pyrogram import filters
-from Zaid.main import bot as Client
-from Zaid.decorators import authorized_users_only
-from Zaid.filters import command, other_filters
-from Zaid.queues import QUEUE, clear_queue
-from Zaid.utils import skip_current_song, skip_item
+from NIXA.main import bot as Client
+from NIXA.decorators import authorized_users_only
+from NIXA.filters import command, other_filters
+from NIXA.queues import QUEUE, clear_queue
+from NIXA.utils import skip_current_song, skip_item
 from config import BOT_USERNAME, GROUP_SUPPORT, IMG_3, UPDATES_CHANNEL
 from pyrogram.types import (
     CallbackQuery,
