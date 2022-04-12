@@ -10,7 +10,7 @@
 
 ## ᴄᴏᴍᴍᴀɴᴅꜱ 
 
-[ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/SUPERIOR_BOTS/160)
+[ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/Demon_Creators/184)
 
 
 ## ꜰᴇᴀᴛᴜʀᴇꜱ ᴡɪᴛʜ ᴀɪ 
