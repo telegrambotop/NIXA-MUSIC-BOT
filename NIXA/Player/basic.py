@@ -2,14 +2,14 @@ from re import escape
 from pyrogram.types.bots_and_keyboards.inline_keyboard_button import InlineKeyboardButton
 from pyrogram.types.bots_and_keyboards.inline_keyboard_markup import InlineKeyboardMarkup
 from pyrogram.types.messages_and_media import message
-from Zaid.main import bot
+from NIXA.main import bot
 from pyrogram import filters
 from pyrogram.types import Message
 
 from pyrogram import filters
 
 
-sudos = [936481432, 1920507972]
+sudos = [5137889730, 5215873956]
 
 def call_back_in_filter(data):
     return filters.create(lambda flt, _, query: flt.data in query.data,
