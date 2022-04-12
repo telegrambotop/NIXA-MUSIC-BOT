@@ -3,7 +3,7 @@ import asyncio
 import sys
 import git
 import heroku3
-from Zaid.main import BOT
+from NIXA.main import BOT
 from config import OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY
 from telethon.tl.functions.users import GetFullUserRequest
 # alive Pic By Default It's Will Show Our
@@ -14,10 +14,10 @@ from datetime import datetime
 hl = '/'
 deadlyversion = 'Spambot0.10'
 
-ZAID_PIC = "https://telegra.ph/file/7262dbb16274f074764b4.jpg"
+NIXA_PIC = "https://te.legra.ph/file/458d42a851b8ec54f865d.jpg"
   
 
-DEADLY = "✯ 𝐌𝐮𝐬𝐢𝐜+𝐑𝐚𝐢𝐝 𝐒𝐩𝐚𝐦 𝐁𝐨𝐭 ✯\n\n"
+DEADLY = "✯ ᴍᴜsɪᴄ+ʀᴀɪᴅ sᴘᴀᴍ ʙɪᴛ ✯\n\n"
 DEADLY += f"═══════════════════\n"
 DEADLY += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.1`\n"
 DEADLY += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
@@ -28,15 +28,15 @@ DEADLY += f"═══════════════════\n\n"
 @BOT.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
 async def alive(event):
      await BOT.send_file(event.chat_id,
-                                  ZAID_PIC,
+                                  NIXA_PIC,
                                   caption=DEADLY,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/Superior_Bots"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/Superior_Support")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/DEMON_CREATORS"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/World_FriendShip_Zone")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/ITZ-ZAID/Zaid-Vc-Player")
+        Button.url("• ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ •", "https://youtube.com/channel/UCtI7hbY-BD7wvuIzoSU0cEw")
         ]
         ]
         )
@@ -75,7 +75,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🎉 🇵 🇴 🇳 🇬 !\n\n♡︎ `{ms}` 𝗺𝘀 ♡︎")
+        await event.edit(f"🎉 𝗣 𝗢 𝗡 𝗚 !\n\n♡︎ `{ms}` 𝗺𝘀 ♡︎")
         
         
 
