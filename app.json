@@ -1,7 +1,6 @@
 {
     "name": "ɴɪxᴀ ᴍᴜsɪᴄ ʙᴏᴛ",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
-    "logo": "https://te.legra.ph/file/187646e964cd12329f1de.jpg"
     "keywords": ["Nixa", "NIXA-MUSIC-BOT", "music", "voice chat", "telegram", "Private Music"],
     "repository": "https://github.com/Sumit9969/NIXA-MUSIC-BOT",
   "stack": "container",
