@@ -36,9 +36,9 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_PIC}",
-        caption=f"""**ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ+sᴘᴀᴍ ʙᴏᴛ ᴀɴᴅ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ ᴏғ sᴏɴɢ .
- ᴀᴅᴅ ᴍᴇ ᴛᴏʙʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ʜᴇʟᴘ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴs...
-💞  ᴛʜᴇsᴇ ғᴇᴀᴛᴜʀᴇs ᴀ.ɪ ʙᴀsᴇᴅ 
+        caption=f"""**ʜᴇʏ ɢᴜʏꜱ 
+ᴛʜɪꜱ ʙᴏᴛ ʜᴀꜱ ᴀ ʟᴏᴛ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴀ.ɪ ᴀɴᴅ ʜɪɢʜ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ ᴏꜰ ꜱᴏɴɢꜱ.
+ᴀɴᴅ ᴛʜɪꜱ ᴍᴜꜱɪᴄ + ꜱᴘᴀᴍ + ᴠᴄʀᴀɪᴅ ʙᴏᴛ ꜱᴍᴀꜱʜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ..
 ᴘᴏᴡᴇʀᴇᴅ ʙʏ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](t.me/Simple_Mundaa)
 **""",
     reply_markup=InlineKeyboardMarkup(
