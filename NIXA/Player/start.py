@@ -74,29 +74,29 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/stats"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/bf9f444677e4d565542a6.jpg",
+        photo=f"https://telegra.ph/file/0d8f59f98eaa6eec46a17.jpg",
         caption=f"""ᴛʜᴀɴᴋᴅ ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ  ғᴏʀ ᴀɴʏ ǫᴜᴇʀʏ ʏᴏᴜ ᴄᴀɴ ᴊᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ᴄʜᴀɴɴᴇʟ.""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "•ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ•", url=f"https://youtube.com/channel/UCtI7hbY-BD7wvuIzoSU0cEw")
+                        "•sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ•", url=f"https://t.me/+ABubCJUp9bIxYzQ9")
                 ]
             ]
         ),
     )
 
 
-@Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["ajju", "owner"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/187646e964cd12329f1de.jpg",
-        caption=f"""ʜᴇʀᴇ ɪs ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ғᴏʀᴋ ᴀɴᴅ ɢɪᴠᴇ sᴛᴀʀs""",
+        photo=f"https://telegra.ph/file/66433337a6d0e4ed51acf.jpg",
+        caption=f"""Oᴡɴᴇʀ ɪs ʜᴇʀᴇ ᴘʟs ᴄʜᴇᴄᴋ ᴏᴜᴛ""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " ʀᴇᴘᴏ ⚒️", url=f"https://t.me/Demon_Creators")
+                        "ᴏᴡɴᴇʀ"🔥, url=f"https://t.me/i_ajit")
                 ]
             ]
         ),
