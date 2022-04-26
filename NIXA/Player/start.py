@@ -38,8 +38,9 @@ async def start_(client: Client, message: Message):
         photo=f"{START_PIC}",
         caption=f"""**ʜᴇʏ ɢᴜʏꜱ 
 ᴛʜɪꜱ ʙᴏᴛ ʜᴀꜱ ᴀ ʟᴏᴛ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴀ.ɪ ᴀɴᴅ ʜɪɢʜ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ ᴏꜰ ꜱᴏɴɢꜱ.
-ᴀɴᴅ ᴛʜɪꜱ ᴍᴜꜱɪᴄ + ꜱᴘᴀᴍ + ᴠᴄʀᴀɪᴅ ʙᴏᴛ ꜱᴍᴀꜱʜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ..
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](t.me/Simple_Mundaa)
+ᴀɴᴅ ᴛʜɪꜱ ᴘᴏᴡᴇʀғᴜʟʟ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀᴊᴊᴜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ..
+
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ [々Rɪᴅᴇʀ乂࿐](https://t.me/i_ajiT)
 **""",
     reply_markup=InlineKeyboardMarkup(
             [
@@ -53,7 +54,7 @@ async def start_(client: Client, message: Message):
                         "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", url=f"https://t.me/Demon_Creators/184"
                     ),
                     InlineKeyboardButton(
-                        "•ᴏᴡɴᴇʀ•", url="https://t.me/Simple_Mundaa"
+                        "•ᴏᴡɴᴇʀ•", url="https://t.me/i_ajit"
                     )
                 ],
                 [
